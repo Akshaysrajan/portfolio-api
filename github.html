@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Status</title>
+   <style>
+     *{
+            padding: 0;
+            margin: 10;
+        }
+        a:link, a:visited, a:active
+        {
+            text-decoration:none;
+            color:rgb(255, 255, 255);
+        }
+        body{
+            background-color: #000000;
+        }
+        a.top:hover
+        {
+            color:#090a0a
+        }
+        
+        #top
+        {
+            background-color:#000000;
+            font-family:'Raleway';
+            padding:25px;
+            height:auto;
+            text-decoration:underline 3px #ffffff;
+            text-align:left;
+            font-size:25px;
+        }
+        #block
+        {
+            display:inline;
+            padding-right:75px;
+        }
+       
+        
+        
+        .box{
+    margin: 1rem;
+}
+.details{
+    font-weight: bold;
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+    padding-left: 15px;
+    font-style: italic;
+}
+.columns box-col card-box{
+    align-items: center;
+}
+.box{
+   
+    text-align:center;
+            background-color:#000000;
+            height:60px;
+            padding:10px;
+            margin-top: 30px;
+            font-size:25px;
+            font-family:'Raleway', sans-serif;
+            color:rgb(251, 251, 251);
+}
+</style>
+</head>
+<body>
+    
+    <div class="box">
+    <h3 >Github Details</h3>
+
+    
+    <div class="columns box-col card-box">
+        <div class="box column is-2 count-card"><h5 class="details">Followers</h5><span class="count" id="followers">x</span></div>
+        <div class="box column is-2 count-card"><h5 class="details">Following</h5><span class="count" id="following">x</span></div>
+        <div class="box column is-2 count-card"><h5 class="details">Public Repos</h5><span class="count" id="repos">x</span></div>
+        <div class="box column is-2 count-card"><h5 class="details">Public Gists</h5><span class="count" id="gists">x</span></div>
+        
+
+      </div>
+    </div>
+
+    <script src="./assets/js/github.js"></script>
+</body>
+</html>
