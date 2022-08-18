@@ -1,5 +1,5 @@
 THE FOUNDATION PROGRAM - MULEARN
 
-ASSIGNMENT - 4 | HTML & CSS
+ASSIGNMENT - 6 | Github API integration
 
-🔗 https://akshaysrajan.github.io/portfolio/
+🔗 https://akshaysrajan.github.io/portfolio-api/
